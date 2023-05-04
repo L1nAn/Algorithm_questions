@@ -42,3 +42,14 @@ public class No_257 {
       }
    }
 }
+class test1{
+   public static void main(String[] args) {
+      TreeNode root = new TreeNode(1);
+      root.left = new TreeNode(2);
+      root.right = new TreeNode(3);
+      root.left.right = new TreeNode(5);
+      No_257 s = new No_257();
+      List<String> strings = s.binaryTreePaths(root);
+      System.out.println(strings);
+   }
+}
