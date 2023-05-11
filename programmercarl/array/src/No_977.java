@@ -28,6 +28,8 @@ public class No_977 {
             left++;
          }
 
+
+
       }
       return result;
    }
